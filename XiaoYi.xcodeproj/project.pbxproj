@@ -15,6 +15,9 @@
 		8E8D1A071D1EB84F002F4CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8D1A051D1EB84F002F4CBE /* LaunchScreen.storyboard */; };
 		8E8D1A121D1EB84F002F4CBE /* XiaoYiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D1A111D1EB84F002F4CBE /* XiaoYiTests.m */; };
 		8E8D1A1D1D1EB84F002F4CBE /* XiaoYiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D1A1C1D1EB84F002F4CBE /* XiaoYiUITests.m */; };
+		8E985F651D1ED1240094A246 /* NearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E985F641D1ED1240094A246 /* NearViewController.m */; };
+		8E985F681D1ED4BE0094A246 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E985F671D1ED4BE0094A246 /* MyViewController.m */; };
+		8E985F6B1D1EDAC10094A246 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E985F6A1D1EDAC10094A246 /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		8E8D1A181D1EB84F002F4CBE /* XiaoYiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiaoYiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8D1A1C1D1EB84F002F4CBE /* XiaoYiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoYiUITests.m; sourceTree = "<group>"; };
 		8E8D1A1E1D1EB84F002F4CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E985F631D1ED1240094A246 /* NearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearViewController.h; sourceTree = "<group>"; };
+		8E985F641D1ED1240094A246 /* NearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearViewController.m; sourceTree = "<group>"; };
+		8E985F661D1ED4BE0094A246 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		8E985F671D1ED4BE0094A246 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		8E985F691D1EDAC10094A246 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		8E985F6A1D1EDAC10094A246 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +114,17 @@
 				8E8D19FB1D1EB84F002F4CBE /* AppDelegate.m */,
 				8E8D19FD1D1EB84F002F4CBE /* ViewController.h */,
 				8E8D19FE1D1EB84F002F4CBE /* ViewController.m */,
+				8E985F631D1ED1240094A246 /* NearViewController.h */,
+				8E985F641D1ED1240094A246 /* NearViewController.m */,
 				8E8D1A001D1EB84F002F4CBE /* Main.storyboard */,
 				8E8D1A031D1EB84F002F4CBE /* Assets.xcassets */,
 				8E8D1A051D1EB84F002F4CBE /* LaunchScreen.storyboard */,
 				8E8D1A081D1EB84F002F4CBE /* Info.plist */,
 				8E8D19F71D1EB84F002F4CBE /* Supporting Files */,
+				8E985F661D1ED4BE0094A246 /* MyViewController.h */,
+				8E985F671D1ED4BE0094A246 /* MyViewController.m */,
+				8E985F691D1EDAC10094A246 /* NextViewController.h */,
+				8E985F6A1D1EDAC10094A246 /* NextViewController.m */,
 			);
 			path = XiaoYi;
 			sourceTree = "<group>";
@@ -270,9 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E985F651D1ED1240094A246 /* NearViewController.m in Sources */,
+				8E985F6B1D1EDAC10094A246 /* NextViewController.m in Sources */,
 				8E8D19FF1D1EB84F002F4CBE /* ViewController.m in Sources */,
 				8E8D19FC1D1EB84F002F4CBE /* AppDelegate.m in Sources */,
 				8E8D19F91D1EB84F002F4CBE /* main.m in Sources */,
+				8E985F681D1ED4BE0094A246 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +516,7 @@
 				8E8D1A231D1EB84F002F4CBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E8D1A241D1EB84F002F4CBE /* Build configuration list for PBXNativeTarget "XiaoYiTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +525,7 @@
 				8E8D1A261D1EB84F002F4CBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E8D1A271D1EB84F002F4CBE /* Build configuration list for PBXNativeTarget "XiaoYiUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +534,7 @@
 				8E8D1A291D1EB84F002F4CBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
