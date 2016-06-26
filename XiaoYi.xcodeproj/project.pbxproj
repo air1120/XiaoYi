@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E0309821D202BB800C8D0EA /* GoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0309801D202BB800C8D0EA /* GoodTableViewCell.m */; };
+		8E0309831D202BB800C8D0EA /* GoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E0309811D202BB800C8D0EA /* GoodTableViewCell.xib */; };
 		8E8D19F91D1EB84F002F4CBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D19F81D1EB84F002F4CBE /* main.m */; };
 		8E8D19FC1D1EB84F002F4CBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D19FB1D1EB84F002F4CBE /* AppDelegate.m */; };
 		8E8D19FF1D1EB84F002F4CBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D19FE1D1EB84F002F4CBE /* ViewController.m */; };
@@ -38,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E03097F1D202BB800C8D0EA /* GoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodTableViewCell.h; sourceTree = "<group>"; };
+		8E0309801D202BB800C8D0EA /* GoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodTableViewCell.m; sourceTree = "<group>"; };
+		8E0309811D202BB800C8D0EA /* GoodTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodTableViewCell.xib; sourceTree = "<group>"; };
 		8E8D19F41D1EB84F002F4CBE /* XiaoYi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaoYi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8D19F81D1EB84F002F4CBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8E8D19FA1D1EB84F002F4CBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +130,9 @@
 				8E985F671D1ED4BE0094A246 /* MyViewController.m */,
 				8E985F691D1EDAC10094A246 /* NextViewController.h */,
 				8E985F6A1D1EDAC10094A246 /* NextViewController.m */,
+				8E03097F1D202BB800C8D0EA /* GoodTableViewCell.h */,
+				8E0309801D202BB800C8D0EA /* GoodTableViewCell.m */,
+				8E0309811D202BB800C8D0EA /* GoodTableViewCell.xib */,
 			);
 			path = XiaoYi;
 			sourceTree = "<group>";
@@ -260,6 +268,7 @@
 			files = (
 				8E8D1A071D1EB84F002F4CBE /* LaunchScreen.storyboard in Resources */,
 				8E8D1A041D1EB84F002F4CBE /* Assets.xcassets in Resources */,
+				8E0309831D202BB800C8D0EA /* GoodTableViewCell.xib in Resources */,
 				8E8D1A021D1EB84F002F4CBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +297,7 @@
 				8E985F651D1ED1240094A246 /* NearViewController.m in Sources */,
 				8E985F6B1D1EDAC10094A246 /* NextViewController.m in Sources */,
 				8E8D19FF1D1EB84F002F4CBE /* ViewController.m in Sources */,
+				8E0309821D202BB800C8D0EA /* GoodTableViewCell.m in Sources */,
 				8E8D19FC1D1EB84F002F4CBE /* AppDelegate.m in Sources */,
 				8E8D19F91D1EB84F002F4CBE /* main.m in Sources */,
 				8E985F681D1ED4BE0094A246 /* MyViewController.m in Sources */,
