@@ -25,7 +25,9 @@
     tableView.delegate = self;
     tableView.dataSource = self;
     [self.view addSubview:tableView];
+    
     self.title = @"附近";
+    
     
     UIBarButtonItem *item = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"yi_nearby_search"] style:UIBarButtonItemStyleDone target:self action:@selector(search)];
     self.navigationItem.rightBarButtonItem = item;
